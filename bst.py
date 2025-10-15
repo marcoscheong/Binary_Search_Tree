@@ -29,6 +29,8 @@ class BinarySearchTree:
 
             while current:
                 parent = current
+                if key == current.key:
+                    raise Exception('Key Already Exists')
 
                 if key < current.key:
                     current = current.left
