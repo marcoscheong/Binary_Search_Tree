@@ -30,7 +30,7 @@ class BinarySearchTree:
             while current:
                 parent = current
                 if key == current.key:
-                    raise Exception('Key already exissst')
+                    raise Exception('Key already exist')
 
                 if key < current.key:
                     current = current.left
