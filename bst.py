@@ -41,7 +41,7 @@ class BinarySearchTree:
             if key < parent.key:
                 parent.left = node
 
-            elif key >= parent.key:
+            else:
                 parent.right = node
                 
               
